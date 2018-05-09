@@ -36,7 +36,7 @@ while(True):
     print(banner)
     print("""1- Launch Rogue AP
 2- Build the bridge 
-3- Start Snif
+3- Start Sniffing
 4- Exit
         """)
 
