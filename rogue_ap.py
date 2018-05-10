@@ -5,7 +5,7 @@ import subprocess
 def rogue():
     iface= input("Interface name: ")
     subprocess.call('sudo airmon-ng start '+iface, shell=True)
-    subprocess.call('sudo airbase-ng --essid Rogue -c 1 '+iface+'mon', shell=True)
+    subprocess.call('sudo airbase-ng --essid Rogue -c 1 mon0', shell=True)
 
 def bridge():
     subprocess.call('sudo brctl addbr Wifi-Bridge', shell=True)
